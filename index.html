@@ -9,16 +9,44 @@
 </head>
 
 <body>
+
+    <div class="overlay">
+
+    </div>
+
     <div class="main">
-        <section class="home-section align-items-center hiddn">
+
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span>
+                        </span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                        <ul>
+                            <li><a href="#home" class="nav-item link-item">home</a></li>
+                            <li><a href="#about" class="nav-item link-item">about</a></li>
+                            <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                            <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                        </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+        <section class="home-section active align-items-center" id="home">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="home-text">
                         <p> Hello, I'm</p>
                         <h1>Jules Taghe</h1>
                         <h2>Fullstack Web Developer</h2>
-                        <a href="#" class="btn"> more about me </a>
-                        <a href="#" class="btn"> Portfolio</a>
+                        <a href="#about" class="link-item btn"> more about me </a>
+                        <a href="#portfolio" class="btn link-item"> Portfolio</a>
 
                     </div>
                     <div class="home-img">
@@ -31,7 +59,7 @@
         </section>
         
 
-        <section class="about-section sec-padding">
+        <section class="about-section sec-padding" id="about">
             <div class="container">
                 <div class="row justify-content-center">
                     <!-- <div class="about-img">
@@ -45,7 +73,12 @@
                         </div>
 
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ullam a quae! Earum sapiente, aspernatur impedit, maxime vitae mollitia dolor quibusdam cumque consectetur nulla quo iure provident pariatur veniam accusantium consequatur nihil quae dolorem rerum optio. Enim eaque aut explicabo!
+                            I am JULES TAGHE, also known as MADAO. I am essentially a software developer, a global citizen,
+                            definitely a lover of all things fun, and a hardcore gamer in my free time. I have a drive for innovation,
+                            developing solutions, learning, and applying new knowledge in any environment I find myself in.
+                            I enjoy working in diverse teams with different experiences to contribute to creating innovative solutions.
+                            What I Proud myself most is in my strive for always developing in every field I ever find myself interested in annd in the fact
+                            that I have outstanding communication skills am always supportive and will always go above and beyond to make my mate feel great.
                         </p>
                         <h3>Skills</h3>
                         <div class="skills">
@@ -73,7 +106,9 @@
                                 <div class="timeline-item">
                                 <span class="date">2018-2022</span>
                                 <h4>diploma Mechatronics - <span> Cape Peninsula University of Technology</span></h4>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod ut vel corrupti.</p>
+                                <p>SUBJECTS: Engineering mathematics, computer engineering, industrial automation, communication skills, engineering drawing,
+                                control systems, electrical engineering and electronics, physical science, mechanics, engineering management, applied
+                                mathematics, embedded systems, Computer aided manufacturing , Process control.</p>
                                 </div>
                             </div>
                         </div>
@@ -83,14 +118,24 @@
                                 <div class="timeline-item">
                                 <span class="date">May 2021- Present</span>
                                 <h4>Fullstack Web Developer <span> Urbian</span></h4>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod ut vel corrupti.</p>
+                                <p>Worked mainly on the Standard Bank - Liberty Stagian Project where my tasks covered the following </p>
+                                <ul>
+                                    <li> Develop, implement, and maintain software solutions using technology skills such as python, Django, JQuery and latest
+                                    Design Pattern. In addition, Understand Software development process, including the use of version control and
+                                    continuous integration systems.</li>
+                                    <li> Work with an agile team to develop, test, support and maintain all software that the team is responsible for</li>
+                                    <li> Understand and respond to the needs and requirements of clients.</li>
+                                    <li> Collaborate with cross-functional teams to define, design, and build new features and updates.</li>
+                                    <li> Bug fixing and improving software security, performance, quality, and responsiveness.</li>
+                                    <li> Building of Microsites and Landing Pages Using HTML, CSS and basic Front-End frame-works </li>
+                                </ul>
                                 </div>
                             </div>
                         </div>
                         </div>
 
-                        <a href="" class="btn"> download cv</a>
-                        <a href="" class="btn"> contact me</a>
+                        <a href="Resume.pdf" target="_blank" class="btn"> download cv</a>
+                        <a href="#contact" class="btn link-item"> contact me</a>
 
 
                     </div>
@@ -98,7 +143,7 @@
             </div>
         </section>
 
-        <section class="portfolio-section sec-padding">
+        <section class="portfolio-section sec-padding" id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -114,13 +159,15 @@
                         <button type="button" class="btn view-project-btn"> view project</button>
                         <div class="portfolio-item-details">
                             <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti provident, iste officiis magni voluptatum sequi nisi id? Dolorem quisquam vel sunt, perferendis iste, cum aliquam nobis adipisci accusamus blanditiis repudiandae voluptate exercitationem ad eaque nemo porro fuga tempora illum. Quidem.</p>
+                                <p> A simple Django web app that keeps track of Users' Incomes and Expenses, Tabulates them and displays the
+                                     results by Category With the help of ChartsJS. Website allows for authentication and has a functionality for password Reset in case of forgotten password via Email service.
+                                    <br>This project thaught me mainly about sending a receiving Json data, ChartsJS, Message sending via Django and Pagination function</p>
                             </div>
                             <div class="general-info">
                                 <ul>
-                                    <li>technologies used - <span> Python, Django, Html, Css, Javascript</span></li>
+                                    <li>technologies used - <span> Python, Django, Html, Css, Javascript, bootstrap</span></li>
                                     <li>Role - <span>Web-app</span></li>
-                                    <li>View - <span> <a href=""> Git-Repo </a> </span></li>
+                                    <li>View - <span> <a href="" target="_blank"> Git-Repo </a> </span></li>
                                 </ul>
                             </div>
                         </div>
@@ -133,13 +180,15 @@
                         <button type="button" class="btn view-project-btn"> view project</button>
                         <div class="portfolio-item-details">
                             <div class="description">
-                                <p>A Twitter like Social Media app that maps individuals and messages to different groups </p>
+                                <p>A Twitter like Social Media app that maps individuals and messages to different groups. This was marked my debuts in Django and thought me 
+                                    alot about class-based-views, designing models, connecting backend to templates and many more basic Django functionities
+                                </p>
                             </div>
                             <div class="general-info">
                                 <ul>
                                     <li>technologies used - <span> Python, Django, Html, Css, Javascript</span></li>
                                     <li>Role - <span>Web-app</span></li>
-                                    <li>View - <span> <a href=""> Git-Repo </a> </span></li>
+                                    <li>View - <span> <a href="" target="_blank"> Git-Repo </a> </span></li>
                                 </ul>
                             </div>
                         </div>
@@ -152,16 +201,17 @@
                         <button type="button" class="btn view-project-btn"> view project</button>
                         <div class="portfolio-item-details">
                             <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti provident, iste officiis magni
-                                    voluptatum sequi nisi id? Dolorem quisquam vel sunt, perferendis iste, cum aliquam nobis adipisci
-                                    accusamus blanditiis repudiandae voluptate exercitationem ad eaque nemo porro fuga tempora illum.
-                                    Quidem.</p>
+                                <p>Built A Basic CRUD API using the Django Rest Framework. This is mainly in the form of a To-Do List
+                                    app Where a Vanilla javascript frontend receives input data and sends it to the backend in Json format to latter be
+                                    received as Json aswell for display. <br>
+                                    This was my introduction to API design and tought me alot about how it is meant to work and communicate with the Front-End
+                                </p>
                             </div>
                             <div class="general-info">
                                 <ul>
                                     <li>technologies used - <span> Python, Django, Html, Css, Javascript</span></li>
                                     <li>Role - <span>API</span></li>
-                                    <li>View - <span> <a href=""> Git-Repo </a> </span></li>
+                                    <li>View - <span> <a href="" target="_blank"> Git-Repo </a> </span></li>
                                 </ul>
                             </div>
                         </div>
@@ -174,16 +224,16 @@
                         <button type="button" class="btn view-project-btn"> view project</button>
                         <div class="portfolio-item-details">
                             <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti provident, iste officiis magni
-                                    voluptatum sequi nisi id? Dolorem quisquam vel sunt, perferendis iste, cum aliquam nobis adipisci
-                                    accusamus blanditiis repudiandae voluptate exercitationem ad eaque nemo porro fuga tempora illum.
-                                    Quidem.</p>
+                                <p> A simple app built using pygame Python library (if you did not notice yet, Python is my native language) which mainly consists of placing a starting point 
+                                    and end-point and a wall to have the Start position find its way around the wall to the end-point in the shortest possible distance. The A* algorithm is used Here.<br>
+                                    From This app, I learned much about Object Oriented Programming and Problem solving.
+                                </p>
                             </div>
                             <div class="general-info">
                                 <ul>
                                     <li>technologies used - <span> Python </span></li>
                                     <li>Role - <span>Game</span></li>
-                                    <li>View - <span> <a href=""> Git-Repo </a> </span></li>
+                                    <li>View - <span> <a href="" target="_blank"> Git-Repo </a> </span></li>
                                 </ul>
                             </div>
                         </div>
@@ -196,16 +246,13 @@
                         <button type="button" class="btn view-project-btn"> view project</button>
                         <div class="portfolio-item-details">
                             <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti provident, iste officiis magni
-                                    voluptatum sequi nisi id? Dolorem quisquam vel sunt, perferendis iste, cum aliquam nobis adipisci
-                                    accusamus blanditiis repudiandae voluptate exercitationem ad eaque nemo porro fuga tempora illum.
-                                    Quidem.</p>
+                                <p>A merge-sort visualiser built using ReactJS (That is All). </p>
                             </div>
                             <div class="general-info">
                                 <ul>
                                     <li>technologies used - <span> Javascript, React</span></li>
                                     <li>Role - <span>Front-End</span></li>
-                                    <li>View - <span> <a href=""> Git-Repo </a> </span></li>
+                                    <li>View - <span> <a href="" target="_blank"> Git-Repo </a> </span></li>
                                 </ul>
                             </div>
                         </div>
@@ -214,7 +261,7 @@
             </div>
         </section>
 
-        <section class="contact-section sec-padding">
+        <section class="contact-section sec-padding" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
