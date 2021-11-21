@@ -23,10 +23,10 @@
     outline: none;
 }
 
-::before,
+/* ::before,
 ::after{
     box-sizing: ;
-}
+} */
 
 body{
     min-height: 100vh;
